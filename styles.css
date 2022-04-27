@@ -36,33 +36,31 @@ main {
     position: relative;
     background-color: var(--DarkGrayishBlue);
     width: 550px;
-    min-height: 320px;
-    max-height: 440px;
     border-radius: 12px;
     justify-content: space-around;
+    min-height: 240px;
 }
 
 #advice {
     color: var(--NeonGreen);
     font-size: 14px;
     display: flex;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 #advice-text {
     text-align: center;
-    padding: 10px 26px;
-    height: 100px;
+    padding: 34px 26px;
 }
 
 #pattern-desktop {
     margin-left: 6px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 #pattern-mobile {
     display: none;
-    margin-bottom: 24px;
+    margin-bottom: 50px;
 }
 
 .dice {
@@ -100,13 +98,10 @@ main {
     #pattern-mobile {
         display: block;
     }
-    .main {
+    main {
         width: 340px;
     }
     .dice {
         left: 46%;
-    }
-    #advice-text {
-        margin-top: -50px;
     }
 }
