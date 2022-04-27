@@ -18,7 +18,10 @@ body {
     font-size: 23px;
     background-color: var(--DarkBlue);
     color: var(--LightCyan);
+}
 
+h1 {
+    font-size: 14px;
 }
 
 .bg, main {
