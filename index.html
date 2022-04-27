@@ -36,7 +36,6 @@
     <script>
       let diceButton = document.querySelector(".dice");
       window.onload = function () {
-            console.log("hello world");
             fetch("https://api.adviceslip.com/advice")
             .then( callBack => callBack.json())
             .then( data => dataReady(data))
